@@ -1,0 +1,44 @@
+{
+  "name": "jocker",
+  "version": "0.0.1",
+  "description": "Docker written in Javascript",
+  "main": "lib",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CallyCa/jocker.git"
+  },
+  "keywords": [
+    "Docker",
+    "LXC",
+    "NodeOS",
+    "single",
+    "process"
+  ],
+  "author": "CallyCa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CallyCa/jocker/issues"
+  },
+  "homepage": "https://github.com/CallyCa/jocker#readme",
+  "dependencies": {
+    "async": "^3.2.4",
+    "mkdirp": "^0.5.1",
+    "nodeos-mount-utils": "github:CallyCa/mount-utils.git",
+    "posix": "^4.2.0",
+    "sinon-test": "^3.1.4"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "errno-codes": "^1.0.2",
+    "mocha": "^5.0.0",
+    "proxyquire": "^2.1.3",
+    "sinon": "^14.0.0",
+    "sinon-chai": "^3.7.0"
+  }
+}
